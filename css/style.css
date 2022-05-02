@@ -149,6 +149,14 @@ main h3 {
 .section-full-box {
     text-align: center;
 }
+.wave {
+    background-image: url('../img/wave.svg');
+    height: 110px;
+    filter: opacity(0.04);
+}
+.wave.updown {
+    transform: rotate(180deg);
+}
 
 /* Footer */
 footer {
